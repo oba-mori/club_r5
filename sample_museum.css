@@ -40,21 +40,40 @@ main {
 /* 画像要素個別設定 */
 .c-0-0[data-name="i-0"] {
 
-  background-color: rgb(255, 237, 237);
+  /* background-color: rgb(255, 237, 237); */
 }
 .c-0-0[data-name="i-1"] {
 
-  background-color: rgb(238, 255, 234);
+  /* background-color: rgb(238, 255, 234); */
 }
 .c-0-0[data-name="i-2"] {
 
-  background-color: rgb(254, 255, 242);
+  /* background-color: rgb(254, 255, 242); */
 }
 .c-0-0[data-name="i-3"] {
 
-  background-color: rgb(237, 241, 255);
+  /* background-color: rgb(237, 241, 255); */
+}
+/* 画像要素個別設定 */
+.c-0-0[data-name="i-4"] {
+
+  /* background-color: rgb(255, 237, 237); */
+}
+.c-0-0[data-name="i-5"] {
+
+  /* background-color: rgb(238, 255, 234); */
+}
+.c-0-0[data-name="i-6"] {
+
+  /* background-color: rgb(254, 255, 242); */
+}
+.c-0-0[data-name="i-7"] {
+
+  /* background-color: rgb(237, 241, 255); */
 }
 
+
+/* 画像大きさ調整 */
 .c-0-0 img{
   /* 余白を消すため */
   display: block;
@@ -64,9 +83,7 @@ main {
   height: 100%;
 
   /* はみ出した所をトリミング */
-  object-fit: cover;
-
-  
+  object-fit: cover;  
 }
 
 
