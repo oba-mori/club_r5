@@ -24,14 +24,20 @@ main {
   flex-wrap: wrap; /* 折返し指定 */
 }
 /* 個数を選択して折り返し(例：(100％ / 4個)) */
-.c-0 div {
+/* .c-0 div {
   width: calc(100% / 4) ;
-}
+} */
 /* 画像要素まとめて設定 */
 .c-0-0 {
-  padding: 0;
+  box-sizing: border-box;
+
+
   margin: 0;
-  
+
+  /* 画像の間に空白を入れたいから */
+  padding: 1rem;
+
+
   /* アスペクト比固定 */
   aspect-ratio: 1 / 1;
 
@@ -95,31 +101,29 @@ main {
 /* 横長(タッチ操作不可)デバイス */
 /* PC */
 
-/* 確認用 */
 /* @media screen and (min-width: 801px){ */
-  @media screen and (any-hover: hover){
-    /* 個数を選択して折り返し(例：(100％ / 4個)) */
-    .c-0 div {
-      width: calc(100% / 4) ;
-    }
+@media screen and (any-hover: hover){
+  /* 個数を選択して折り返し(例：(100％ / 4個)) */
+  .c-0 div {
+    width: calc(100% / 4) ;    
+  }
+  
+
+}/* 終 */
   
   
-  }/* 終 */
-  
-  
-  /* -------------------------------------------------------------------- */
-  /* 縦長(タッチ操作可能)デバイス */
-  /* タブレット、スマホ */
-  
-  /* 確認用 */
-  /* @media screen and (max-width: 800px){  */
-  @media screen and (any-hover: none){
-    /* 個数を選択して折り返し(例：(100％ / 2個)) */
-    .c-0 div {
-      width: calc(100% / 2) ;
-    }
-  
-  }/* 終 */
+/* -------------------------------------------------------------------- */
+/* 縦長(タッチ操作可能)デバイス */
+/* タブレット、スマホ */
+
+/* @media screen and (max-width: 800px){  */
+@media screen and (any-hover: none){
+  /* 個数を選択して折り返し(例：(100％ / 2個)) */
+  .c-0 div {
+    width: calc(100% / 2) ;
+  }
+
+}/* 終 */
   
 
 
