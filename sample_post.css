@@ -49,7 +49,6 @@
 
 /* フォームテーブル */
 .post-table{
-
   margin-bottom: 2rem;
 
   width: 100%;
@@ -80,14 +79,14 @@
 
 /* フォームの文字 */
 .form-text {
-  width: 100%;
+  width: 90%;
   padding: 1rem;
   border-radius: 0.5rem;
   border: 0.1rem solid #ccc;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: clamp(20rem, calc(var(--vw) * 40), 90%);
+  /* width: clamp(20rem, calc(var(--vw) * 40), 90%); */
 }
 
 
