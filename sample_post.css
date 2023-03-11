@@ -67,12 +67,12 @@
 .post-item {
   /*text-align: left; /* テキスト左寄せ */
   text-align: center; /* テキスト中央揃え */
-  width: 30%; /* 横幅30%指定（グレーの背景色部分） */
+  width: 20%; /* 横幅30%指定（グレーの背景色部分） */
   background-color: #eee; /* グレーの背景色 */
 }
 
 .post-body {
-  width: 70%; /* 横幅70%指定（白背景色部分） */
+  width: 80%; /* 横幅70%指定（白背景色部分） */
   background-color: rgb(253, 253, 253); /* グレーの背景色 */
 }
 
