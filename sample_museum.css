@@ -19,12 +19,21 @@ main {
   /* background-color: rgb(237, 255, 255); */
 }
 
+
+
+
+
+
+
 /* 画像配置 */
 /* 纏めクラス */
 .c-0 {
   display: flex;    
   flex-wrap: wrap; /* 折返し指定 */
   box-sizing: border-box;
+
+  /* 子要素がpaddingで1remとっているため、間が2remになる。外空白も2remとりたいから補填用のmarginを設ける */
+  margin: 1rem;
 }
 /* 個数を選択して折り返し(例：(100％ / 4個)) */
 /* .c-0 div {
@@ -99,29 +108,29 @@ main {
 /* 横長(タッチ操作不可)デバイス */
 /* PC */
 
-/* @media screen and (min-width: 801px){ */
-  @media screen and (any-hover: hover){
-    /* 個数を選択して折り返し(例：(100％ / 4個)) */
-    .c-0 div {
-      width: calc(100% / 4) ;    
-    }
-    
+@media screen and (min-width: 801px){
+/* @media screen and (any-hover: hover){ */
+  /* 個数を選択して折り返し(例：(100％ / 4個)) */
+  .c-0 div {
+    width: calc(100% / 4) ;    
+  }
   
-  }/* 終 */
-    
-    
-  /* -------------------------------------------------------------------- */
-  /* 縦長(タッチ操作可能)デバイス */
-  /* タブレット、スマホ */
+
+}/* 終 */
   
-  /* @media screen and (max-width: 800px){  */
-  @media screen and (any-hover: none){
-    /* 個数を選択して折り返し(例：(100％ / 2個)) */
-    .c-0 div {
-      width: calc(100% / 2) ;
-    }
   
-  }/* 終 */
+/* -------------------------------------------------------------------- */
+/* 縦長(タッチ操作可能)デバイス */
+/* タブレット、スマホ */
+
+@media screen and (max-width: 800px){ 
+/* @media screen and (any-hover: none){ */
+  /* 個数を選択して折り返し(例：(100％ / 2個)) */
+  .c-0 div {
+    width: calc(100% / 2) ;
+  }
+
+}/* 終 */
     
   
   
