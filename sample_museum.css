@@ -11,85 +11,28 @@
 
 
 /*--------------------------------------------------------------------*/
+
+
 /* メイン */
-main {
-  height: 1500px;
-  /* background-color: rgb(237, 255, 255); */
-}
 
 /* 画像配置 */
 /* 纏めクラス */
-.c-0 {  
-  display: flex;    
-  flex-wrap: wrap; /* 折返し指定 */
+.c-0 {
+  display: flex;
+
+
 }
-/* 個数を選択して折り返し(例：(100％ / 4個)) */
-/* .c-0 div {
-  width: calc(100% / 4) ;
-} */
-/* 画像要素まとめて設定 */
+/* 画像を入れるクラスを纏めて指定 */
 .c-0-0 {
-  box-sizing: border-box;
-
-
-  margin: 0;
-
-  /* 画像の間に空白を入れたいから */
-  padding: 1rem;
-
-
-  /* アスペクト比固定 */
-  aspect-ratio: 1 / 1;
-
-  /* background-color: rgb(212, 253, 253);   */
+  width: 50px;
+  height: 50px;
 }
-/* 画像要素個別設定 */
+/* クラスを個別に指定 */
 .c-0-0[data-name="i-0"] {
-
-  /* background-color: rgb(255, 237, 237); */
+  background-color: rgb(169, 215, 255);
 }
 .c-0-0[data-name="i-1"] {
-
-  /* background-color: rgb(238, 255, 234); */
-}
-.c-0-0[data-name="i-2"] {
-
-  /* background-color: rgb(254, 255, 242); */
-}
-.c-0-0[data-name="i-3"] {
-
-  /* background-color: rgb(237, 241, 255); */
-}
-/* 画像要素個別設定 */
-.c-0-0[data-name="i-4"] {
-
-  /* background-color: rgb(255, 237, 237); */
-}
-.c-0-0[data-name="i-5"] {
-
-  /* background-color: rgb(238, 255, 234); */
-}
-.c-0-0[data-name="i-6"] {
-
-  /* background-color: rgb(254, 255, 242); */
-}
-.c-0-0[data-name="i-7"] {
-
-  /* background-color: rgb(237, 241, 255); */
-}
-
-
-/* 画像大きさ調整 */
-.c-0-0 img{
-  /* 余白を消すため */
-  display: block;
-
-  /* 画像を要素の全体に表示する */
-  width: 100%;
-  height: 100%;
-
-  /* はみ出した所をトリミング */
-  object-fit: cover;  
+  background-color: rgb(250, 255, 173);
 }
 
 
@@ -97,34 +40,7 @@ main {
 
 
 
-/* -------------------------------------------------------------------- */
-/* 横長(タッチ操作不可)デバイス */
-/* PC */
 
-/* @media screen and (min-width: 801px){ */
-@media screen and (any-hover: hover){
-  /* 個数を選択して折り返し(例：(100％ / 4個)) */
-  .c-0 div {
-    width: calc(100% / 4) ;    
-  }
-  
-
-}/* 終 */
-  
-  
-/* -------------------------------------------------------------------- */
-/* 縦長(タッチ操作可能)デバイス */
-/* タブレット、スマホ */
-
-/* @media screen and (max-width: 800px){  */
-@media screen and (any-hover: none){
-  /* 個数を選択して折り返し(例：(100％ / 2個)) */
-  .c-0 div {
-    width: calc(100% / 2) ;
-  }
-
-}/* 終 */
-  
 
 
 

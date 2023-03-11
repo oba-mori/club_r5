@@ -49,8 +49,13 @@
 
 /* フォームテーブル */
 .post-table{
-  width: 100%;
+
   margin-bottom: 2rem;
+
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-all;
 }
 /* フォームテーブル内の要素(カテゴリ欄、入力欄) */
 .post-item,
