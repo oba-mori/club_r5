@@ -21,6 +21,32 @@ main {
 
 
 
+/* 文章纏め */
+.museum-string {
+  height: auto;
+  margin: 0 auto;   /*中央寄せ*/
+  
+  /*上下内部余白*/
+  padding: 2rem 0; 
+
+  /* ページ全体の背景色 */
+  /*background-color: rgb(247, 255, 249);*/
+}
+/* タイトル */
+.museum-ttl{
+  font-size: 4rem;
+  font-weight: bold;  /* 太字 */
+  /* margin-bottom: 3rem; */
+  text-align: center; /* テキスト位置 中央 */
+}
+
+/* 文章 */
+.museum-stc{
+  font-size: 1.7rem;
+  text-align: center; /* テキスト位置 中央 */
+}
+
+
 
 
 

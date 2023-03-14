@@ -22,7 +22,7 @@
   width: min(90%, 90rem); /*基本値, 最大値*/
   height: 60rem;
   margin: 0 auto;   /*中央寄せ*/
-  padding: 6rem 0;  /*上下内部余白*/
+  padding: 2rem 0;  /*上下内部余白*/
 
   /* ページ全体の背景色 */
   /*background-color: rgb(247, 255, 249);*/
@@ -34,7 +34,7 @@
 .post-ttl{
   font-size: 4rem;
   font-weight: bold;  /* 太字 */
-  margin-bottom: 3rem;
+  margin: 3rem auto;
   text-align: center; /* テキスト位置 中央 */
 }
 
@@ -42,11 +42,12 @@
 .post-stc{
   font-size: 1.7rem;
   text-align: center; /* テキスト位置 中央 */
+  margin-bottom: 3rem;
 }
 
 
 
-
+/* -------------------------------------------------------------------- */
 /* フォームテーブル */
 .post-table{
   margin-bottom: 2rem;
